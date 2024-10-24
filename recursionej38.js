@@ -30,3 +30,32 @@ function setup() {
     fill(z)
     recursiveEllipse(n, x, y, w, h, z, c, a);
   }
+
+  // function setup() {
+  //   createCanvas(400, 400);
+  // }
+  
+  // function recursiveEllipse(n, x, y, w, h, z){
+  //   if(n==0){return 1}
+  //   stroke(0, 0, 0, 0);
+  //   fill(z);
+  //   ellipse(x,y,w,h);
+  //   ellipseMode(CENTER);
+  //   z = color(random([0, 255]));
+  //   recursiveEllipse(n-1, x+w/4, y, w/2, h/2, z);
+  //   recursiveEllipse(n-1, x-w/4, y, w/2, h/2, z);
+  //   recursiveEllipse(n-1, x, y+h/4, w/2, h/2, z);
+  //   recursiveEllipse(n-1, x, y-h/4, w/2, h/2, z);
+  // }
+  
+  // function draw() {
+  //   background(255);
+  //   let x = 200;
+  //   let y = 200;
+  //   let w = width;
+  //   let h = height;
+  //   let z = color(0, 0, 0, 160);
+  //   let n = 8;
+  //   fill(z)
+  //   recursiveEllipse(n, x, y, w, h, z);
+  // }
